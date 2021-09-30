@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="PicsArt_07-31-02.19.24.png" class="logo">
+                <ul>
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">PROJECT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <img src="moon.png" id="icon">
+            </nav>
+            <div class="info">
+                <h1> Hi I'm <span>Vighnesh</span> Sadagopal</h1>
+                <p>This is my official portfolio website where you can see all of my works</p>
+                <a href="#">Download CV</a>
+            </div>
+            <div class="img-box">
+                <img src="PicsArt_07-31-02.10.58.png"class="back-img">
+                <img src="new1.png"class="main-img">
+            </div>
+        </div>
+       <div class="footer">
+           <div class="footer-content">
+               <h1>ABOUT ME</h1>
+            Skilled and knowledged in Computer Science .  
+            I am completely looking forward to join a workspace where my abilities and my trainings can be excelled. 
+            I have a good knowledge about web developing techniques which is again my key ability and my strength.
+           </div>
+           <div class="footer-contact">
+               <h1>Contact Info</h1>
+               <p>+91 7709754261</p>
+               <p>vighneshp65@gmail.com</p>
+           </div>
+           <div class="footer-social">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;
+               <a href="#"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+               <a href="#"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;
+               <a href="#"><i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;
+           </div>
+           <div class="message">
+               <h2>Email</h2>
+               <input type="email" required><br><br><br>
+               <h2>Message/Feedback</h2>
+               <textarea></textarea><br>
+               <button>Send</button>
+           </div>
+
+
+
+           <div class="footer-bottom"> 
+               &copy; Copyright by Vighnesh Sadagopal| Designer|Developer
+           </div>
+       </div>
+        <script>
+
+            var icon= document.getElementById("icon");
+            icon.onclick = function(){
+                document.body.classList.toggle("darktheme");
+            }
+
+        </script>
+    </body>
+</html>
